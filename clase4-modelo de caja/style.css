@@ -1,0 +1,19 @@
+/* Box Sizing
+
+esto se utiliza por que los navegadores por defecto agregan ciertos estilos a los proyectos y si queremos acceder a todo el espacio de la pantalla del navegador tenemos que reiniciar estos estilos con la etiqueta "*" 
+    -El asterizco significa que va a acceder a todos lo elementos del navegador 
+    
+    En vez de utilizar esto deberiamos utilizar el archivo normalice.css*/
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+main {
+    width:100%;/*ancho*/
+    height:500px ; /*alto*/
+    border: 10px solid red;
+    padding: 20px 50px;
+}
