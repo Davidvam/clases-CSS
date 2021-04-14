@@ -1,0 +1,63 @@
+/*                  ¿Como se controla el orden de la                        declaracion en css?
+
+CSS y el NAVEGADOR van a tener 3 pilares para decidir que estilos van a implementar y tienen el siguiente orden.
+
+
+1.Importancia
+2.Especificidad
+3.Orden de las fuentes 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+    Si dos declaraciones tienen la misma importancia, la especificidad decidira cual se debe aplicar. Si las reglas tienen la misma especificidad, el orden de las fuentes controla el resultado final
+
+
+*IMPORTANCIA* 
+
+    Orden:
+    1.El navegador primero aplicara sus estilos.
+    2.El navegador aplicara las declaraciones el autor (Nuestro codigo css)
+    3.Declaraciones importantes en hojas de estilos de autor (utilizar el !impoprtant)
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+*ESPECIFICIDAD* 
+    Se atribuyen unos valores de derecha a izquierda
+    
+    *DERECHA*                       *Izquierda*
+    Menos importantes              Mas importantes para el navegador
+ 
+ 
+ |---------------------------------------|
+ |   Selectores      |    Especificidad  |
+ |---------------------------------------|
+ |   !important      |    1,0,0,0,0      |------>5. Mala practica
+ |   inline Styles   |    0,1,0,0,0      |------>4. Estilos que ponemos dentro de la etiqueta html (Esto se llama estilo embebido)
+ |   #id             |    0,0,1,0,0      |------>3.
+ |   .class          |    0,0,0,1,0      |------>2.
+ |   tag             |    0,0,0,0,1      |------>1.
+ |---------------------------------------|
+
+ Si llegamos a tener un conflicto hay que tener en cuenta 
+
+
+ |---------------------------------------|
+ |   Selectores      |    Especificidad  |
+ |---------------------------------------|
+ |   !important      |    1,0,0,0,0      |------>
+ |   inline Styles   |    0,1,0,0,0      |------>
+ |   #id + .class    |    0,0,1,1,0      |------>Esto tendria mas importancia por tener los numero 1 dos veces
+ |   .class          |    0,0,0,1,0      |------>
+ |   tag             |    0,0,0,0,1      |------>
+ |---------------------------------------|
+
+
+ En ese orden debemos aplicar los estilos
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+*ORDEN DE LAS FUENTES*  
+
+CSS utiliza un estilo en cascada y las reglas que se van a aplicar son las que esten abajo
+
+
+*/
