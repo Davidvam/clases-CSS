@@ -1,0 +1,10 @@
+html{
+    font-size: 75%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: inherit;
+}
+
+/* A la etiqueta que dice h1 le estan haciendo heredar el tamaño de fuente que ya trae predeterminado su padre mas cercano, en este caso el padre cercano es la etiqueta de html*/
