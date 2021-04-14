@@ -1,0 +1,58 @@
+/*      *COMBINADORES*
+
+1.*Child* 
+(Hijo)
+utiliza la birgulilla para llamar a un elmento
+
+div > p{      |            Esto se lee:
+              |         la etiqueta "p" que sea una hija irecta de la etiqueta "div" se le agrega el sigueinte estilo
+}             |  
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+2.*combinador descendiente*
+
+div p {
+    color: red;           
+}
+
+*Como se lee*
+
+Todas las etiquetas "p que esten dentro de un div" agregale el siguiente estilo
+
+
+Es el que utilizaremos de forma mas habitual
+
+
+
+/////////////////////////////////////////////////////// 
+
+
+
+Para ser mas espoecificos podemos combinar cualquier tipo de combinador
+*/
+
+
+
+
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+/* div > p {
+    color: red;          /*Combinador hijo directo
+}*/ 
+
+div p {
+    color: red;           /*Combinador descendiente*/
+}
