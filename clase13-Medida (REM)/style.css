@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    font-size: 62.5%  /*Al utilizar este porcentaje en la fuente de html  para que 1 rem = 10px*/
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+
+
+/*Medidas
+  |-------------------------------------|
+  |  Absolutas   |Relativas             |
+  |--------------|----------------------|
+  | px (Pixeles) |      %               |
+  |              |      em              |
+  |              |  rem(root em)        |
+  |              | max-widht/max-height | 
+  |              | min-widht/min-height |
+  |              | vw (viewport widht)  |
+  |              | vh (viewport height) |
+  |-------------------------------------|
+
+  REM
+
+  Siempre va a tener de referencia el estilo de  nuestra etiqueta root,
+  nuestra etiqueta root siempre va a ser la etiqueta html (Trae por defecto 16px)
+ 
+    A diferencia de *EM* que depende de su padre directo que pueden ser diferente en el body y en el main y ocacionar un conflicto.
+
+
+        *Como utilizar REM como nuestra medida    estandar*
+
+    A nuestra etiqueta de html le pondremos una medida de 62.5%
+
+    Esto hara que 1 Rem sean 10 px
+  
+    1 rem= 10px
+    1.6 rem = 16 px      -como buenas practicas debvemos utilizar pixeles (Con rem podemos hacerlo)
+    2 rem = 20 px        - La medida rem se utilizaras en todo nuestro html sin importar que tengamos contenidos anidados
+    2.3 rem = 23 px             por que nuestra etiqueta root nunca cambia (Simpre es nuestra etiqueta html)
+    3 rem = 30 px
+  
+  */
+
+
