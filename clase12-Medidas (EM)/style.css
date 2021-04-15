@@ -1,0 +1,46 @@
+
+.contenedor-textos                                                                                    
+{
+    font-size: 1.5em;    /*Se conviuerte en un problema al tener varias etiquetas con medida estipuladas pueden dar un tamaño de fuente que no es el que queremos*/
+}
+
+.contenedor-div{ 
+    font-size: 1.5em ;
+}
+
+
+
+/*Medidas
+  |-------------------------------------|
+  |  Absolutas   |Relativas             |
+  |--------------|----------------------|
+  | px (Pixeles) |      %               |
+  |              |      em              |
+  |              |  rem(root em)        |
+  |              | max-widht/max-height | 
+  |              | min-widht/min-height |
+  |              | vw (viewport widht)  |
+  |              | vh (viewport height) |
+  |-------------------------------------|
+
+  
+  *EM*
+
+  EM = es un acronimo de elemento y lo que hace es tomar el tamaño de fuente que tenga el padre directo , toma el tamaño de fuente especificado y se multiplica por la medida em :
+
+            <html> (Tiene un estandar de 16px)       |    
+                <body>                               |.text{
+                    <p "class=text">Soy un texto</p> |  font-zize:1 em
+                </body>                              |      }
+            </html>                                  |
+
+
+
+  tendra una medida de 16 px, por que em tomara la medida del padre directo, en este caso la etiqueta html que es la que trae un font-zize estipulado
+  
+  
+  
+  
+  */
+
+
