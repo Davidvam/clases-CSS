@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    font-size: 62.5%  /*Al utilizar este porcentaje en la fuente de html  para que 1 rem = 10px*/
+
+}
+
+main {
+  width: 100vw; /*(que ocupe el 100% del viewport sin importar el tamaño de la pantalla)*/      
+  height: 100vh; /*(view height)*/
+  background-color: aquamarine;
+}    
+
+section{
+    width: 80%;       /*Esto hace que el minimo de la  sean 320 px manteniendo como base el 80% siampre se va a necesitar un widht base*/
+    max-width:500px ;
+    min-width:320px;
+      /*Usara siempre el 80% pero una v ez que llegue a 500 px ya no podra crecer mas nuestro width*/
+    height: 500px;
+    margin: 0 auto; /*Esto significa que arriva y abajo tengan margenes de cero y a los lados se ajuste de forma automatica*/
+    background-color: royalblue;
+}
+
+
+
+/*Medidas
+  |-------------------------------------|
+  |  Absolutas   |Relativas             |
+  |--------------|----------------------|
+  | px (Pixeles) |      %               |
+  |              |      em              |
+  |              |  rem(root em)        |
+  |              | max-widht/max-height | - |     Esta clase tratata sobre estas medidas
+  |              | min-widht/min-height |   |  
+  |              | vw (viewport widht)  |   |
+  |              | vh (viewport height) | - |
+  |-------------------------------------|
+
+  
+  width: 80%;           para utilizar mx o min se debe establecer un valor base
+  max-width:500px ;
+  min-width:320px;     el max y el min tal como esta en el ejemplo no es flexible y si hay mas contenido quedara por fuera, parra arreglar este problema 
+
+
+  para eso se agrega un "min-heigh " y si hay algo que sobrepasa crecera
+  
+  
+  
+  */
