@@ -1,0 +1,33 @@
+main{
+    background-color: rebeccapurple;
+    width: 100%;  /*Ancho*/
+    height: 500px;  /*Alto (Largo)*/
+}
+
+
+
+
+/* p{
+    font-size: 18px;  Medida absoluta
+} */
+
+p{
+    font-size: 16%;  /*Hereda el tamaño de fuente de html que son 16px (Tamaño estandar)*/
+
+}
+
+
+/*Medidas
+  |-------------------------------------|
+  |  Absolutas   |Relativas             |
+  |--------------|----------------------|
+  | px (Pixeles) |      %               |
+  |              |      em              |
+  |              |  rem(root em)        |
+  |              | max-widht/max-height | 
+  |              | min-widht/min-height |
+  |              | vw (viewport widht)  |
+  |              | vh (viewport height) |
+  |-------------------------------------|
+
+  */
