@@ -1,0 +1,62 @@
+html{
+    font-size: 62.5%;
+}
+
+
+.block-element{
+    background-color: blueviolet;
+    margin: 1rem;
+    padding: 2rem;
+
+}
+
+.nav{
+   background-color: brown;
+   padding: 2rem;
+   list-style: none; 
+   text-align: center;
+}
+.nav li{
+    display: inline-block;
+    font-size: 2rem;
+    margin: 1rem 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+
+/*                  *TIPOS DE DISPLAY* 
+
+Block:
+
+-En este tipo de display el contenido va a utilizar el 100% del widht (Sin importar si es una letra o mas), esto hara que el contenido quede en forma de columna
+
+-Se puede usar margin y padding por todos lados.
+
+
+Inline:
+
+-Las etiquetas y los contenidos que tengamos solo ocuparan el espacio que necesiten y si añadimos contenido tendra espacio delante.(Ver la etiqueta de span en el navegador)
+
+
+-No puedo utilizar el margin ni el padding en la parte de arriba ni abajo, solo derecha e izquierda  y tampoco le pudeo dar un widht ni un height.
+
+
+-Inline-block: Fusion de las dos
+
+*CARACTERISTICAS INLINE*
+
+- Quedan con el estilo inline, por lo que cocupan solo el lugar necesario para el cOntenido, permite que otros elemtnos se le pongan en frente y se le pueden modificar el margin, padding  a diferencia que en el inline no se puede modificar nada
+
+*CARACTERISTICAS BLOCK*
+
+- Permite agregarle margin y padding arriba y abajo y permite modificar el high  y el widht
+
+
+
+
+*Etiquetas como "p" y "div" vienen por default con display block
+*Etiquetas como "span" vienen por default con display inline
+
+*/
