@@ -1,0 +1,52 @@
+:root{
+    --primary-color:aquamarine;
+    --secundary-color:dodgerblue;
+    --header-size:4rem;
+    --font:1.8rem;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+    font-size: 62.5%; /*1 rem: 10px*/
+
+}
+
+header{
+    width: 100vw;
+    height: 20vh;
+    background-color: var(--primary-color);  /*Color principal*/
+}
+
+main{
+    width: 100vw;
+    height: 70vh;
+    font-size: var(--font);
+}
+
+h1{
+    font-size: var(--header-size);
+    color: var(--primary-color) ;
+}
+
+footer{
+    width: 100vh;
+    height: 15vh;
+    background-color: var(--secundary-color);
+}
+
+/*      Variables
+
+Las variables se utilizan para evitar escribir y repetir los mismos estilos en muchas partes de nuestro codigo
+
+1.Para empezar a utilizar variables vamos a declararlas en el root, el root hace referencia a nuestro html
+
+Agregamos los estilos que queremos agregar y a que elementos queremos agregar, este tema de variables es mas util cuanto tenems proyectos con muchisimo codigo css
+
+
+
+*/
