@@ -1,0 +1,31 @@
+/*
+                                *FUENTES*
+
+    1.Fuentes genericas (Generic-families)
+
+    Para cuando no cargue la fuente que estamops utilizando se cargue automaticamente la fuente que ya esta seteada como fuente default.
+
+        1.Serif: Times new roman-Georgia
+        2.Sans-serif: Helvetica-Verdana
+        3.Cursive: (Letras pegadas)
+        4.Monospace:Courier new / Roboto Mono 
+
+    1.Buscamos las fuentes en google fonts, las añadimos y pegamos el link en el head, igual que pegamos nuestro styles.css
+
+    3.No añadir mas de una fuente externa
+
+    2.Añadimos esa fuente en nuestros estilos dentro de la etiqueta de html, pegamos la guia que nos deja ggoogle fonts sobre las fuentes en "font-family"
+
+*/
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+    font-size: 62.5%; /*1 rem: 10px*/
+    font-family: 'Roboto Mono', monospace;;
+}
