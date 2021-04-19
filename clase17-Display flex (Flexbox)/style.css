@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+    font-size: 62.5%;
+
+}
+
+body{
+    font-size: 1.6rem;
+} 
+
+.container{
+border: 0.3rem solid black;
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.box{
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+    
+}
+
+.Box1{
+    background-color: blueviolet;
+    
+    
+}
+
+.Box2{
+    background-color:burlywood;
+    
+}
+.Box3{
+    background-color:cyan;
+    
+}
+.Box4{
+    background-color:darkkhaki;
+    
+}
+.Box5{
+    background-color:darkslategrey;
+}
+.Box6{
+    background-color:maroon;
+}
+
+/*                  DISPLAY FLEX
+
+Es un Display elastico:
+
+*TIPOS DE DISPLAY FLEX (Direction)*
+         
+    1.flex-direction: row
+    Pone todos nuestros elementos uno en frente del otro 
+
+    2.flex-direction:column
+    acomoda todos nuestros elementos en forma de columna
+
+
+    3.reverse: Al añadir este calor a nustro flex va a poner el orden de nustros elementos en reversa.
+
+    ejemplo:  Si los contenidops estan del 1 al 6 los pondra del 6 al 1
+
+*TIPOS DE DISPLAY (wrap)*
+
+    1."flex-wrap: wrap" 
+    Hace que nustro contenido se arregle automaticamente si disminuimos o aumentamos el tamaño de la pagina y pierde su posicion para poder acomodarse, cuando ya lños contenidos no tienen espacio se van a bajar a la siguiente fila de forma utomatica, y no se genera scroll
+
+    2."flex-wrap: nowrap"
+    Nuestro contenido manteniene la posicion y si disminumimos o aumentamos el tamaño de la pagina el contenido no se va a mover
+
+    3.reverse: Hace lo mismo pero al revez
+
+*TIPOS DE DISPLAY (Justify-content)*
+
+    Es una herramienta que nos ayuda a centrar nuestro contenido
+
+    1.justify-content: Center 
+    Alinea nuestros contenidos en el centro de izquierda a derecha
+
+    2.justify-content: flex-start
+    alinea nuestro contenido en la parte izquierda de la pagina(Este vienen por default)
+    
+    3.justify-content: flex-end
+    Alinea nuestro contenido en la parte derecha de nuestra pagina
+
+    4.justify-content: space-around
+    Agrega un pequeño espacio entre los elementos pero no es un espacio perfecto
+
+    5.justify-content: space-evenly
+    Agrega un pequeño espacio entre los elementos
+    pero es un espacio perfecto desde las orillas hasta cada uno de los contenedores sin importar cuanto crece el espacio va a ser el mismo
+
+*TIPOS DE DISPLAY (Alingn-items)*
+    
+    Esta propiedad alinea los elementos de formas diferentes de manera vertical.
+
+    1.align-items: center
+    De arriba hacia abajo alinea los elementos en el centro
+
+    2.align-items: flex-start
+    de manera vertical ubica  los elementos al principio de nuestro contendor
+
+    3.align-items: flex-end
+    De arriba hacia abajo alinea los elementos al final de nuestro contenedor
+
+    4.align-items: stretch
+    Estira nuestros elementos al 100% de nuestro contenedor padre, si no vemos cambios al utilizar estrech debemos quitar el height de nuestros contenedores
+
+    5.align-items: baseline
+    debemos quitar el widht y el heigh y esta propiedad (Baseline) hara que los elementos solo tomen el espacio que tienen su contenido
+
+*TIPOS DE DISPLAY (flex-grow)*
+    Los elementos que tengan esta propiedad son los que van a crecer en caso de que haya mas espacio, y los demas elementos quedaran con su tamaño normal  (El esapcio sobrante)
+
+*/
